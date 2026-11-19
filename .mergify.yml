@@ -1,0 +1,9 @@
+queue_rules:
+  - name: default
+    merge_conditions: []
+pull_request_rules:
+  - name: h1 research queue rule B MARKER-SECRET-B-51c7
+    conditions:
+      - label=h1-queue
+    actions:
+      queue:
